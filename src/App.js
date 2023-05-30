@@ -58,21 +58,21 @@ function CarShow() {
         shadow-bias={-0.0001}
       />
       <Ground />
-      <EffectComposer>
-        <Bloom
-        blendFunction={BlendFunction.ADD}
-        intensity={1.3}
-        width={300}
-        height={300}
-        kernelSize={5}
-        luminanceThreshold={0.15}
-        luminanceSmoothing={0.025}
-        />
-        <ChromaticAberration
-        blendFunction={BlendFunction.NORMAL}
-        offset={[0.0005, 0.0012]}
-        />
-      </EffectComposer>
+//       <EffectComposer>
+//         <Bloom
+//         blendFunction={BlendFunction.ADD}
+//         intensity={1.3}
+//         width={300}
+//         height={300}
+//         kernelSize={5}
+//         luminanceThreshold={0.15}
+//         luminanceSmoothing={0.025}
+//         />
+//         <ChromaticAberration
+//         blendFunction={BlendFunction.NORMAL}
+//         offset={[0.0005, 0.0012]}
+//         />
+//       </EffectComposer>
     </>
   );
 }
